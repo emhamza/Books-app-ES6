@@ -1,6 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 
-export function initializeNavigation() {
+export const initializeNavigation = () => {
   const addNewLink = document.querySelector('.add-new');
   const contactLink = document.querySelector('.contact');
 
@@ -32,4 +32,4 @@ export function initializeNavigation() {
     addBookSection.style.display = 'none';
     allBooksSection.style.display = 'none';
   });
-}
+};
