@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Awesome Books</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#home">Awesome Books</a>
+        <ul class="nav-list">
+          <li><a href="" class="list">List</a></li>
+          <li><a href="" class="add-new">Add new</a></li>
+          <li><a href="" class="contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="current-date-time" class="date-time"></div>
+    </header>
+
+    <section class="all-books">
+      <h1>All awesome books</h1>
+      <div class="books-data" id="main-list"></div>
+      <footer>Copyright</footer>
+    </section>
+
+    <section class="add-book">
+      <h2>Add a new book</h2>
+
+      <form id="book-form">
+        <input
+          class="form-control form-control-lg"
+          placeholder="title"
+          type="text"
+          name="title"
+          id="title"
+        /><br /><br />
+        <input
+          class="form-control form-control-lg"
+          placeholder="author"
+          type="text"
+          name="author"
+          id="author"
+        /><br /><br />
+        <button type="submit" class="btn-add">Add</button>
+      </form>
+      <footer>Copyright</footer>
+    </section>
+
+    <section class="contact-form">
+      <div class="contact-details">
+        <h1>Contact information</h1>
+        <p>
+          Do have any questions or you want to say "Hello"? <br />You can reach
+          out to us
+        </p>
+        <ul>
+          <li>Our email: Ken@mail.com</li>
+          <li>Our phone: 00044457632</li>
+          <li>Our email: Becking, 22, 24876, Karachi, Pakistan</li>
+        </ul>
+      </div>
+
+      <footer>Copyright</footer>
+    </section>
+  </body>
+</html>
